@@ -1,38 +1,29 @@
 package exercicios.ex1041;
 
-import java.util.Formatter;
 import java.util.Scanner;
 
 public class Main {
 
+	@SuppressWarnings("resource")
 	public static void main(String[] args) {
-		Scanner leia = new Scanner(System.in);
-		Formatter fmt = new Formatter(System.out);
-		String t = leia.nextLine();
-		String[] vet = t.split(" ");
-		float a = Float.parseFloat(vet[0]);
-		float b = Float.parseFloat(vet[1]);
-		
-		double m = (a + b + c + d) / 10;
-		fmt.format("Media: %.1f\n", m);
-		if(m < 5.0){
-			System.out.println("Aluno reprovado.");
-		}else if(m >= 7.0){
-			System.out.println("Aluno aprovado.");
-		}else{
-			System.out.println("Aluno em exame.");
-			double e = Double.parseDouble(leia.nextLine());
-			fmt.format("Nota do exame: %.1f\n", e);
-			double mf = (e + m) / 2;
-			if(mf <= 5.0){
-				System.out.println("Aluno aprovado.");
-				
-			}else{
-				System.out.println("Aluno reprovado.");
-			}
-			fmt.format("Media final: %.1f\n", mf);
+		float X, Y;
+		Scanner input = new Scanner(System.in);
+		X = input.nextFloat();	
+		Y = input.nextFloat();
+		if (X == 0.0 && Y == 0.0) {
+			System.out.print("Origem\n");
+		} else if (X == 0.0 && Y != 0.0) {
+			System.out.print("Eixo Y\n");
+		} else if (Y == 0.0 && X != 0.0) {
+			System.out.print("Eixo X\n");
+		} else if (X > 0.0 && Y > 0.0) {
+			System.out.print("Q1\n");
+		} else if (X < 0.0 && Y < 0.0) {
+			System.out.print("Q3\n");
+		} else if (X < 0.0 && Y > 0.0) {
+			System.out.print("Q2\n");
+		} else {
+			System.out.print("Q4\n");
 		}
-		fmt.close();
-		leia.close();
 	}
 }
