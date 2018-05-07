@@ -30,11 +30,11 @@ public class Main {
 					x = (float) (x + (1500.00 * 0.18));
 					
 					if(a > 0){
-						x = (float) (x + (a * 0.18));
+						x = (float) (x + (a * 0.28));
 					}
 				}
 			}
-			System.out.printf("R$ %.2f\n", a);
+			System.out.printf("R$ %.2f\n", x);
 		}
 		
 		
