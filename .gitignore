@@ -1,48 +1,47 @@
-<<<<<<< HEAD
 #
-# Project specific excludes
+# Exclusões específicas do projeto
 #
 
 tomcat
 
 #
-# Default excludes
+# Padrão exclui
 #
 #
-# Binaries
-*.7z
-*.dmg
-*.gz
-*.iso
-*.jar
-*.rar
-*.tar
-*.zip
-*.war
-*.ear
-*.sar
-*.class
+# Binários
+* .7z
+* .dmg
+* .gz
+* .iso
+* .jar
+* .rar
+*.alcatrão
+*.fecho eclair
+*.guerra
+*.orelha
+* .sar
+*.classe
 
 # Maven 
-target/
+alvo/
 
-# IntelliJ project files 
-*.iml
-*.iws
-*.ipr
-.idea/
+# Arquivos de projeto do IntelliJ 
+* .iml
+* .iws
+* .ipr
+.idéia/
 
-# eclipse project file
-.settings/
+# arquivo de projeto do eclipse
+.configurações/
 .classpath
-.project
+.projeto
 
-# NetBeans specific
-nbproject/private/
-build/
-nbbuild/
-dist/
-nbdist/
+# NetBeans específico
+nbproject / private /
+construir/
+nbbuild /
+dist /
+nbdist /
 nbactions.xml
 nb-configuration.xml
 
@@ -51,16 +50,7 @@ nb-configuration.xml
 .DS_Store
 
 # Misc
-*.swp
+* .swp
 release.properties
 pom.xml.releaseBackup
 pom.xml.tag
-=======
-/Financeiro/
-/Financeiro/
-/ouvidoria/
-/ouvidoria.rar
-/ouvidoria/
-/Financeiro/
-/ouvidoria/
->>>>>>> branch 'master' of https://github.com/Suleiman-Moraes/URIOnline.git
