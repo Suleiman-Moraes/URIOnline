@@ -1,56 +1,7 @@
-#
-# Exclusões específicas do projeto
-#
-
-tomcat
-
-#
-# Padrão exclui
-#
-#
-# Binários
-* .7z
-* .dmg
-* .gz
-* .iso
-* .jar
-* .rar
-*.alcatrão
-*.fecho eclair
-*.guerra
-*.orelha
-* .sar
-*.classe
-
-# Maven 
-alvo/
-
-# Arquivos de projeto do IntelliJ 
-* .iml
-* .iws
-* .ipr
-.idéia/
-
-# arquivo de projeto do eclipse
-.configurações/
-.classpath
-.projeto
-
-# NetBeans específico
-nbproject / private /
-construir/
-nbbuild /
-dist /
-nbdist /
-nbactions.xml
-nb-configuration.xml
-
-
-# OS
-.DS_Store
-
-# Misc
-* .swp
-release.properties
-pom.xml.releaseBackup
-pom.xml.tag
+/Financeiro/
+/Financeiro/
+/ouvidoria/
+/ouvidoria.rar
+/ouvidoria/
+/Financeiro/
+/ouvidoria/
