@@ -14,12 +14,20 @@ public class Main {
 			a = leia.nextInt();
 			b = leia.nextInt();
 			
-			if(a == 2002){
-				tudo.append("Acesso Permitido\n");
+			if(a == 0 || b == 0){
 				break;
 			}
+			else if(a < 0 && b < 0){
+				tudo.append("terceiro\n");
+			}
+			else if(a > 0 && b > 0){
+				tudo.append("primeiro\n");
+			}
+			else if(a > 0 && b < 0){
+				tudo.append("quarto\n");
+			}
 			else{
-				tudo.append("Senha Invalida\n");
+				tudo.append("segundo\n");
 			}
 		} while (true);
 		System.out.print(tudo);
