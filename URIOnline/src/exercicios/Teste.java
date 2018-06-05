@@ -1,5 +1,7 @@
 package exercicios;
 
+import exercicios.iniciante.Ex01;
+
 public class Teste {
 	@SuppressWarnings("unused")
 	public static void main(String[] args) {
@@ -12,3 +14,4 @@ public class Teste {
 		System.out.println(Ex01.class.getName());
 	}
 }
+	
