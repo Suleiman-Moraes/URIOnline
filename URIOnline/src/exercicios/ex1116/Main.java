@@ -8,7 +8,7 @@ public class Main {
 	public static void main(String[] args) {
 		NumberFormat dec = new DecimalFormat("#0.0");
 //		 Locale.setDefault(Locale.US);
-		int q = 0, a, b;;
+		int q = 0, a, b;
 		StringBuffer tudo = new StringBuffer("");
 		Scanner leia = new Scanner(System.in);
 		q = leia.nextInt();
