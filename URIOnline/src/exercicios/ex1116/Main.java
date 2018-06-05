@@ -8,21 +8,24 @@ public class Main {
 	public static void main(String[] args) {
 		NumberFormat dec = new DecimalFormat("#0.0");
 //		 Locale.setDefault(Locale.US);
-		int q = 0;
+		int q = 0, a, b;;
 		StringBuffer tudo = new StringBuffer("");
 		Scanner leia = new Scanner(System.in);
 		q = leia.nextInt();
 		
-		int a, b;
-		do {
+		for (int i = 0; i < q; i++) {
 			a = leia.nextInt();
 			b = leia.nextInt();
 			
-			if(b < 0){
-				
+			if(b == 0){
+				tudo.append("divisao impossivel\n");
+			}
+			else{
+				tudo.append(dec.format((double)a / b));
+				tudo.append("\n");
 			}
 			
-		} while (q > 0);
+		}
 		System.out.print(tudo);
 		leia.close();
 	}
