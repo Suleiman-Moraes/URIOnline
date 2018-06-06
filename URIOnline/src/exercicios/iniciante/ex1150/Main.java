@@ -17,11 +17,9 @@ public class Main {
 		int soma = 0;
 		int cont = 0;
 		do {
-			soma += cont;
+			soma += a + cont;
+			cont ++;
 		} while (soma <= b);
-		for (int i = 0; i < b; i++) {
-			soma += a + i;
-		}
-		System.out.println(soma);
+		System.out.println(cont);
 	}
 }
