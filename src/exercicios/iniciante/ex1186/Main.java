@@ -11,7 +11,7 @@ public class Main {
 		float[][] m = new float[12][12];
 		char operacao = leia.nextLine().charAt(0);
 		
-		int cont = 0;
+		int cont = 0; 
 		float soma = 0;
 		for (int l = 0; l < m.length; l++) {
 			for (int c = 0; c < m[l].length; c++) {
