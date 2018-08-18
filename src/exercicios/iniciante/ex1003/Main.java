@@ -1,4 +1,4 @@
-package exercicios.iniciante.Ex1003;
+package exercicios.iniciante.ex1003;
 
 import java.util.Scanner;
 
