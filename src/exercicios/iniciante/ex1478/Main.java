@@ -4,9 +4,6 @@ import java.util.Scanner;
 
 public class Main {
 	public static void main(String[] args) {
-//		NumberFormat dec = new DecimalFormat("#0.0000");
-//		Locale.setDefault(Locale.US);
-//		StringBuilder tudo = new StringBuilder("");
 		Scanner leia = new Scanner(System.in);
 		StringBuilder tudo = new StringBuilder();
 		while(true) {
