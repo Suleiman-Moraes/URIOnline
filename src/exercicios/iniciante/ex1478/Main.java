@@ -8,7 +8,7 @@ public class Main {
 //		Locale.setDefault(Locale.US);
 //		StringBuilder tudo = new StringBuilder("");
 		Scanner leia = new Scanner(System.in);
-		
+		StringBuilder tudo = new StringBuilder();
 		while(true) {
 			int valor = leia.nextInt();
 			if(valor == 0) {
@@ -41,16 +41,17 @@ public class Main {
 			for (int l = 0; l < matriz.length; l++) {
 				for (int c = 0; c < matriz[l].length; c++) {
 					if(c == 0) {
-						System.out.printf("%3d", matriz[l][c]);
+						tudo.append(String.format("%3d", matriz[l][c]));
 					}
 					else {
-						System.out.printf(" %3d", matriz[l][c]);
+						tudo.append(String.format(" %3d", matriz[l][c]));
 					}
 				}
-				System.out.println();
+				tudo.append("\n");
 			}
-			System.out.println();
+			tudo.append("\n");
 		}
+		System.out.print(tudo);
 		leia.close();
 	}
 }
