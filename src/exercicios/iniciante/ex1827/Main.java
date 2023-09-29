@@ -21,18 +21,18 @@ public class Main {
 
 		while (scan.hasNext()) {
 			final byte value = scan.nextByte();
-			final byte maxPos = (byte) (value - 1);
+			final byte maxPos = (byte) (value - ONE);
 			final byte center = (byte) (value / TWO);
-			final byte squareStarts = (byte) (value / 3);
+			final byte squareStarts = (byte) (value / THREE);
 			final byte squareEnds = (byte) (value - squareStarts);
 
 			StringBuilder text = new StringBuilder();
 			for (int row = 0; row < value; row++) {
-				final boolean squareRow = row >= squareStarts && row < squareEnds;
+				final boolean squareRow = verifySquare(squareStarts, squareEnds, row);
 				for (int column = 0; column < value; column++) {
 					if (center == row && center == column) {
 						text.append(FOUR);
-					} else if (squareRow && column >= squareStarts && column < squareEnds) {
+					} else if (squareRow && verifySquare(squareStarts, squareEnds, column)) {
 						// inner square
 						text.append(ONE);
 					} else if (row == column) {
@@ -50,5 +50,9 @@ public class Main {
 			System.out.println(text);
 		}
 		scan.close();
+	}
+
+	private static boolean verifySquare(final byte squareStarts, final byte squareEnds, int rowOrColumn) {
+		return rowOrColumn >= squareStarts && rowOrColumn < squareEnds;
 	}
 }
