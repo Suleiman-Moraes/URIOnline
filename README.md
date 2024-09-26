@@ -2,7 +2,7 @@
 
 [![GitHub stars](https://img.shields.io/github/stars/Suleiman-Moraes/URIOnline?style=social)](https://github.com/Suleiman-Moraes/URIOnline/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/Suleiman-Moraes/URIOnline?style=social)](https://github.com/Suleiman-Moraes/URIOnline/network/members)
-[![GitHub license](https://img.shields.io/github/license/Suleiman-Moraes/URIOnline)](https://github.com/Suleiman-Moraes/URIOnline/blob/main/LICENSE)
+[![GitHub license](https://img.shields.io/github/license/Suleiman-Moraes/URIOnline)](https://github.com/Suleiman-Moraes/URIOnline/blob/master/LICENSE)
 ![Java](https://img.shields.io/badge/Java-8-orange)
 
 Bem-vindo ao repositório de soluções dos desafios da plataforma **Beecrowd (URI Online Judge)**! Aqui você encontra códigos em diversas linguagens de programação que resolvem problemas de categorias variadas, desde lógica básica até algoritmos mais avançados.
