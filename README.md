@@ -7,6 +7,14 @@
 
 Bem-vindo ao repositório de soluções dos desafios da plataforma **Beecrowd (URI Online Judge)**! Aqui você encontra códigos em diversas linguagens de programação que resolvem problemas de categorias variadas, desde lógica básica até algoritmos mais avançados.
 
+## 🚀 Minha Jornada na Beecrowd
+
+Sou apaixonado por desafios de programação e estou constantemente aprimorando minhas habilidades através das competições na **Beecrowd (URI Online Judge)**. Confira meu progresso e as soluções dos problemas que resolvo diariamente:
+
+[![Perfil Beecrowd](https://img.shields.io/badge/Beecrowd-Perfil%20Pessoal-blue?style=for-the-badge)](https://www.beecrowd.com.br/judge/pt/profile/220579)
+
+🔗 [Meu perfil na Beecrowd](https://www.beecrowd.com.br/judge/pt/profile/220579)
+
 ## 📖 Sobre
 Este repositório contém minhas soluções para os problemas propostos no **Beecrowd** (antigo URI Online Judge), uma plataforma muito popular para praticar e melhorar habilidades de programação competitiva.
 
