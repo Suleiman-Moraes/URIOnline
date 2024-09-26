@@ -50,6 +50,6 @@ Se você tiver dúvidas ou sugestões, sinta-se à vontade para entrar em contat
 
 ## 📝 Licença
 
-Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](https://github.com/Suleiman-Moraes/URIOnline/blob/main/LICENSE) para mais detalhes.
+Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](https://github.com/Suleiman-Moraes/URIOnline/blob/master/LICENSE) para mais detalhes.
 
 **Divirta-se resolvendo desafios e aprimorando suas habilidades de programação!** 😊
