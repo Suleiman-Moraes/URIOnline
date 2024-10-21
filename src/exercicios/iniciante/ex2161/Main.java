@@ -4,19 +4,25 @@ import java.io.IOException;
 import java.util.Scanner;
 
 /**
- * beecrowd | 2160 Nome no Formulário Por M.C. Pinto, UNILA BR Brazil
+ * beecrowd | 2161 Raiz Quadrada de 10 Por M.C. Pinto, UNILA BR Brazil
  * 
- * Timelimit: 1 Preencher formulários é uma tarefa simples. Mas é preciso
- * conferir se o espaço reservado para os dados é suficiente.
+ * Timelimit: 1 Uma das formas de calcular a raiz quadrada de um número natural
+ * é pelo método das frações periódicas continuadas. Esse método usa como
+ * denominador uma repetição de frações. Essa repetição pode ser feita uma
+ * quantidade específica de vezes.
  * 
- * Sua tarefa é, dada uma linha de texto, indicar se ele cabe ou não cabe em um
- * formulário com 80 caracteres.
+ * Por exemplo, ao repetir 2 vezes a fração continuada para calcular a raiz
+ * quadrada de 10, temos a fórmula abaixo.
  * 
- * Entrada A entrada é uma linha de texto L (1 ≤ |L| ≤ 500).
  * 
- * Saída A saída é dada em uma única linha. Ela deve ser "YES" (sem as aspas) se
- * a linha de texto L tem até 80 caracteres. Se L tem mais de 80 caracteres, a
- * saída deve ser "NO".
+ * 
+ * Sua tarefa é, dado o número N de repetições, calcular o valor aproximado da
+ * raiz quadrada de 10.
+ * 
+ * Entrada A entrada é um número natural N (0 ≤ N ≤ 100), que indica o número de
+ * repetições do denominador na fração continuada.
+ * 
+ * Saída A saída é o valor aproximado da raiz quadrada com 10 casas decimais.
  * 
  * 
  */
@@ -28,8 +34,13 @@ public class Main {
 		scan.close();
 	}
 
-	protected static String execute(int value) {
-		
-		return text.length() <= 80 ? "YES" : "NO";
+	protected static String execute(int times) {
+		double value = 0;
+		for (int i = 0; i < times; i++) {
+			value += 6;
+			value = 1.0 / value;
+		}
+		value += 3;
+		return String.format("%.10f", value).replace(",", ".");
 	}
 }
